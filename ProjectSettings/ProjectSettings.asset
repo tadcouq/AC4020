@@ -9,7 +9,7 @@ PlayerSettings:
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
   defaultScreenOrientation: 4
-  targetDevice: 2
+  targetDevice: 0
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: 8xEducation
@@ -143,7 +143,7 @@ PlayerSettings:
   loadStoreDebugModeEnabled: 0
   visionOSBundleVersion: 1.0
   tvOSBundleVersion: 1.0
-  bundleVersion: 20251.1
+  bundleVersion: 1.0
   preloadedAssets:
   - {fileID: 4800000, guid: b02d09082cbc14569ae46c12d9836abc, type: 3}
   - {fileID: 4800000, guid: 0f45334fa661448c886e4f99ba812a7e, type: 3}
@@ -170,8 +170,9 @@ PlayerSettings:
   androidMaxAspectRatio: 2.4
   androidMinAspectRatio: 1
   applicationIdentifier:
-    Android: com.tdcq.AC402020251
+    Android: com.tdcq.AC4020
     Standalone: com.DefaultCompany.3D-Project
+    iPhone: com.tdcq.ac4020
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -870,7 +871,7 @@ PlayerSettings:
   scriptingDefineSymbols:
     Android: NIANTIC_LIGHTSHIP_AR_LOADER_ENABLED;NIANTIC_ARDK_USE_FAST_LIGHTWEIGHT_PAM
     Standalone: NIANTIC_LIGHTSHIP_AR_LOADER_ENABLED;NIANTIC_ARDK_USE_FAST_LIGHTWEIGHT_PAM
-    iPhone: UNITY_XR_ARKIT_LOADER_ENABLED
+    iPhone: UNITY_XR_ARKIT_LOADER_ENABLED;NIANTIC_LIGHTSHIP_AR_LOADER_ENABLED;NIANTIC_ARDK_USE_FAST_LIGHTWEIGHT_PAM
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:

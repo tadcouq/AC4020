@@ -30,7 +30,7 @@ MonoBehaviour:
     - rid: 8299392318639964361
       type: {class: iOSPlatformSettings, ns: UnityEditor.iOS, asm: UnityEditor.iOS.Extensions}
       data:
-        m_Development: 0
+        m_Development: 1
         m_ConnectProfiler: 0
         m_BuildWithDeepProfilingSupport: 0
         m_AllowDebugging: 0
@@ -46,5 +46,5 @@ MonoBehaviour:
         m_AdaptivePerformanceEnabled: 0
         m_iOSXcodeBuildConfig: 1
         m_SymlinkSources: 0
-        m_PreferredXcode: 
+        m_PreferredXcode: 16.4_/Applications/Xcode.app
         m_SymlinkTrampoline: 0
